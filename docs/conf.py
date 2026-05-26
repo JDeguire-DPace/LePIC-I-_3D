@@ -5,10 +5,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-project = "LePIC 3D"
+project = "LePIC+ 3D"
 author = "Jasmin Deguire"
 copyright = "2026, Jasmin Deguire"
 release = "0.1.0"
+
 
 extensions = [
     "sphinx.ext.autosectionlabel",
@@ -28,6 +29,8 @@ master_doc = "index"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "sphinx_rtd_theme"
-html_title = "LePIC 3D documentation"
+html_title = "LePIC+ 3D documentation"
 html_static_path = ["_static"]
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
+html_logo = "_static/logo.png"
+html_static_path = ['_static']
