@@ -1,7 +1,7 @@
 Physics Model
 =============
 
-LePIC uses the electrostatic Particle-In-Cell (PIC) method.
+LePIC+ uses the electrostatic Particle-In-Cell (PIC) method.
 
 Main Components
 ---------------
