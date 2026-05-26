@@ -1,0 +1,18 @@
+/* Sidebar header */
+.wy-side-nav-search {
+    background-color: #1B5217;
+}
+
+/* Top navigation bar */
+.wy-nav-top {
+    background-color: #1B5217;
+}
+
+/* Links */
+a {
+    color: #1B5217;
+}
+
+a:hover {
+    color: #311b5a;
+}

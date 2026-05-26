@@ -34,3 +34,5 @@ html_static_path = ["_static"]
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
 html_logo = "_static/lepic_logo.png"
 html_static_path = ['_static']
+
+html_css_files = ["css/custom.css"]
