@@ -32,5 +32,5 @@ html_theme = "sphinx_rtd_theme"
 html_title = "LePIC+ 3D documentation"
 html_static_path = ["_static"]
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
-html_logo = "_static/LePIC+.png"
+html_logo = "_static/lepic_logo.png"
 html_static_path = ['_static']
