@@ -10,7 +10,6 @@ author = "Jasmin Deguire"
 copyright = "2026, Jasmin Deguire"
 release = "0.1.0"
 
-
 extensions = [
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.todo",
@@ -30,9 +29,12 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 html_theme = "sphinx_rtd_theme"
 html_title = "LePIC+ 3D documentation"
-html_static_path = ["_static"]
-html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
-html_logo = "_static/lepic_logo.png"
-html_static_path = ['_static']
 
-html_css_files = ["css/custom.css"]
+html_static_path = ["_static"]
+html_logo = "_static/lepic_logo.png"
+
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "/")
+
+html_css_files = [
+    "css/custom.css",
+]
