@@ -1,7 +1,7 @@
-LePIC
+LePIC+
 =====
 
-LePIC is a modular electrostatic Particle-In-Cell (PIC) plasma simulation
+LePIC+ is a modular electrostatic Particle-In-Cell (PIC) plasma simulation
 code written in modern Fortran.
 
 The code is designed for plasma source simulations, RF discharges,
