@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfields_base.a CMakeFiles/fields_base.dir/modules/fields/mod_fields.f90.o CMakeFiles/fields_base.dir/modules/fields/mod_density.f90.o
+/usr/bin/ranlib libfields_base.a
