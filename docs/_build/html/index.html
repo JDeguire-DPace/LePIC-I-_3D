@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LePIC &mdash; LePIC+ 3D documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=d3c08091" />
+
+  
+    <link rel="canonical" href="/index.html" />
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=01f34227"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Overview" href="overview.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            LePIC+ 3D
+              <img src="_static/lepic_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">User Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation and build</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">Running Simulations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="inputs.html">Input Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="outputs.html">Outputs</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Physics and Numerics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="physics.html">Physics Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Fortran modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code_structure.html">Code Structure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="developers.html">Developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readthedocs.html">Read the Docs setup</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">LePIC+ 3D</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">LePIC</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lepic">
+<h1>LePIC<a class="headerlink" href="#lepic" title="Link to this heading"></a></h1>
+<p>LePIC is a modular electrostatic Particle-In-Cell (PIC) plasma simulation
+code written in modern Fortran.</p>
+<p>The code is designed for plasma source simulations, RF discharges,
+ion extraction, and plasma-wall interaction studies.</p>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Link to this heading"></a></h2>
+<p>LePIC currently supports:</p>
+<ul class="simple">
+<li><p>Electrostatic PIC solver</p></li>
+<li><p>Modular OOP architecture</p></li>
+<li><p>MPI/OpenMP parallelization</p></li>
+<li><p>Plasma chemistry and collisions</p></li>
+<li><p>RF electron heating</p></li>
+<li><p>Multiple boundary conditions</p></li>
+<li><p>2D diagnostic plane outputs</p></li>
+<li><p>Modern CMake build system</p></li>
+</ul>
+<p>The code is being developed for ion source simulations and numerical plasma physics research.</p>
+</section>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">User Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#applications">Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#main-features">Main Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html#code-organization">Code Organization</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation and build</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#typical-local-build">Typical local build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#intel-mpi-example">Intel/MPI example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#gnu-mpi-example">GNU/MPI example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#build">Build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#run">Run</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#outputs">Outputs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#visualization">Visualization</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">Running Simulations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="running.html#input-files">Input Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html#mpi-execution">MPI Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html#openmp">OpenMP</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="inputs.html">Input Files</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="inputs.html#conditions-inp">conditions.inp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="inputs.html#geometry-inp">geometry.inp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="inputs.html#boundary-inp">boundary.inp</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="outputs.html">Outputs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="outputs.html#d-planes">2D Planes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Physics and Numerics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="physics.html">Physics Model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="physics.html#main-components">Main Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="physics.html#particle-mover">Particle Mover</a></li>
+<li class="toctree-l2"><a class="reference internal" href="physics.html#poisson-solver">Poisson Solver</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Fortran modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#configuration">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#core">Core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#fields">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#geometry">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#particles">Particles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#simulation">Simulation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#i-o">I/O</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="code_structure.html">Code Structure</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="developers.html">Developers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readthedocs.html">Read the Docs setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="readthedocs.html#files-added-for-read-the-docs">Files added for Read the Docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="readthedocs.html#local-documentation-build">Local documentation build</a></li>
+<li class="toctree-l2"><a class="reference internal" href="readthedocs.html#publishing-on-read-the-docs">Publishing on Read the Docs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="readthedocs.html#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="overview.html" class="btn btn-neutral float-right" title="Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Jasmin Deguire.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
