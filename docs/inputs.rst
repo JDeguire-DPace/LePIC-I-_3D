@@ -1,28 +1,32 @@
-Input files
+Input Files
 ===========
 
-The current repository contains simulation input files in ``input_dir/``.
+conditions.inp
+--------------
 
-Important files
----------------
+This file defines:
 
-``geometry.inp``
-   Defines the simulation box and wall geometry.
+* grid resolution
+* timestep parameters
+* solver settings
+* plasma parameters
+* collision frequencies
 
-``boundary.inp``
-   Defines boundary conditions.
+geometry.inp
+------------
 
-``conditions.inp``
-   Defines numerical and physical simulation parameters.
+Defines:
 
-Chemistry/reaction files
-------------------------
+* simulation box size
+* wall geometry
+* dielectric regions
+* periodic boundaries
 
-Examples include:
+boundary.inp
+------------
 
-* ``He.dat``
-* ``hydrogen.dat``
-* ``argon.dat``
-* ``special.dat``
+Defines:
 
-These files configure the species and reactions used by the chemistry and collision modules.
+* particle boundary conditions
+* electrostatic boundary conditions
+* wall types

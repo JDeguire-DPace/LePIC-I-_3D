@@ -1,27 +1,28 @@
-Outputs and plotting
-====================
+Outputs
+=======
 
-Output directories
-------------------
+LePIC produces diagnostic outputs in ASCII ``.mco`` format.
 
-``Output/``
-   Runtime output files.
+Main directories:
 
-``Output/Output_2D/``
-   Expected location for 2D plane outputs when generated.
+.. code-block:: text
 
-``Plot/``
-   Python plotting and comparison utilities.
+   Output/
+   Output/Output_2D/
 
-Common plotting scripts
------------------------
+2D Planes
+---------
 
-Examples currently present in ``Plot/`` include:
+Supported planes:
 
-* ``plot_mco.py``
-* ``plotDATA_modular.py``
-* ``compare.py``
-* ``compareRho.py``
-* ``plot_film.py``
+* XY
+* XZ
+* YZ
 
-The ``.mco`` files are ASCII plane files used for diagnostics and comparisons.
+Typical diagnostics:
+
+* potential ``phi``
+* densities ``n1``, ``n2``
+* charge density ``rho``
+* temperatures
+* electric fields

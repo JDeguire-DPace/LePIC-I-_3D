@@ -1,27 +1,39 @@
 Overview
 ========
 
-The code is organized around a modernized modular Fortran implementation of a 3D PIC simulation.
-The executable defined in the current CMake configuration is ``run_min``.
+LePIC is a modular electrostatic Particle-In-Cell (PIC) plasma simulation
+code written in modern Fortran.
 
-Main features documented here
------------------------------
+The code is designed for plasma source simulations, RF discharges,
+ion extraction, and plasma-wall interaction studies.
 
-* CMake-based build system.
-* MPI initialization through the main program.
-* Modular Fortran source tree under ``modules/``.
-* Input files under ``input_dir/``.
-* 2D output and plotting utilities.
+Applications
+------------
 
-Repository layout
+* RF ion sources
+* Plasma discharges
+* Plasma chemistry
+* Beam extraction studies
+* Numerical plasma physics research
+
+Main Features
+-------------
+
+* Electrostatic PIC solver
+* Modular OOP architecture
+* MPI/OpenMP support
+* Plasma chemistry and collisions
+* RF electron heating
+* Flexible boundary conditions
+* Structured diagnostic outputs
+
+Code Organization
 -----------------
 
-.. code-block:: text
+The project is organized into:
 
-   CMakeLists.txt
-   modules/
-   input_dir/
-   Output/
-   Plot/
-   docs/
-   .readthedocs.yaml
+* ``Src/`` legacy implementation
+* ``modules/`` modular implementation
+* ``InputData/`` simulation input files
+* ``Output/`` simulation outputs
+* ``Plot/`` visualization scripts
